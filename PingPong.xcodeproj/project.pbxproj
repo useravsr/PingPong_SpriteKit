@@ -15,6 +15,7 @@
 		3B3218392A50B2CB00C00AB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3218372A50B2CB00C00AB7 /* Main.storyboard */; };
 		3B32183B2A50B2CC00C00AB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B32183A2A50B2CC00C00AB7 /* Assets.xcassets */; };
 		3B32183E2A50B2CC00C00AB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B32183C2A50B2CC00C00AB7 /* LaunchScreen.storyboard */; };
+		3B3218452A50B3AE00C00AB7 /* bolinha.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B3218442A50B3AE00C00AB7 /* bolinha.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		3B3218382A50B2CB00C00AB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B32183A2A50B2CC00C00AB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B32183D2A50B2CC00C00AB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B3218442A50B3AE00C00AB7 /* bolinha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bolinha.png; path = ../../../../Downloads/bolinha.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				3B3218372A50B2CB00C00AB7 /* Main.storyboard */,
 				3B32183A2A50B2CC00C00AB7 /* Assets.xcassets */,
 				3B32183C2A50B2CC00C00AB7 /* LaunchScreen.storyboard */,
+				3B3218442A50B3AE00C00AB7 /* bolinha.png */,
 			);
 			path = PingPong;
 			sourceTree = "<group>";
@@ -132,6 +135,7 @@
 				3B3218392A50B2CB00C00AB7 /* Main.storyboard in Resources */,
 				3B3218302A50B2CB00C00AB7 /* GameScene.sks in Resources */,
 				3B32183B2A50B2CC00C00AB7 /* Assets.xcassets in Resources */,
+				3B3218452A50B3AE00C00AB7 /* bolinha.png in Resources */,
 				3B32183E2A50B2CC00C00AB7 /* LaunchScreen.storyboard in Resources */,
 				3B3218322A50B2CB00C00AB7 /* Actions.sks in Resources */,
 			);
@@ -299,8 +303,8 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,8 +331,8 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
